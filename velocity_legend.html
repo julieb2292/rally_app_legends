@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>design</title>
+<style>
+body    {font-family: "Lucida Grande","Lucida Sans Unicode", verdana, arial, Helvetica,sans-serif; font-size: 10px; font-weight: inherit;}
+table   { font-family: "Lucida Grande","Lucida Sans Unicode", verdana, arial, Helvetica,sans-serif; font-size: 11px; text-align:left;}
+
+#after{
+    border-radius: 15%;
+    background: #50C08D;
+    padding: 6px;
+    width: 25%;
+    height: 8%;
+}
+
+#during{
+    border-radius: 15%;
+    background: #008000;
+    padding: 6px;
+    width: 25%;
+    height: 8%;
+}
+
+#notYet{
+    border-radius: 15%;
+    background: #ff6666;
+    padding: 6px;
+    width: 25%;
+    height: 8%;
+}
+
+#duringThread{
+    border: 1px solid #008000;
+    background: #008000;
+    width: 12px;
+}
+
+#border {
+    border-radius: 7px;
+    border: 2px ridge #C0C0C0;
+    padding: 5px;
+    width: 650px;
+    height: 18px;
+}
+
+</style>
+</head>
+<body>
+<center>
+<p align= "center" id="border">
+<table style="width:100%;" >
+<tr>
+<td><div id="during"></div></td>
+<td>&nbsp;Accepted During Iteration</td>
+<td><div id="after"></td>
+<td>&nbsp;Accepted After Iteration</td>
+<td><div id="notYet"></td>
+<td>&nbsp;Not Yet Accepted</td>
+<td><div id="duringThread"></div> </td>
+<td>Accepted During Iteration Trend</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
